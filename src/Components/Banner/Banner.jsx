@@ -11,7 +11,7 @@ import "swiper/swiper-bundle.css"
 
 const Banner = () => {
     return (
-        <div className=''>
+        <div className=' pt-16'>
             <Swiper
              modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay,EffectCube,EffectCards, EffectCreative]}
              effect={"cube"}

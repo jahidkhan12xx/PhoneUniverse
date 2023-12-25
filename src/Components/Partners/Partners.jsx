@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 const Partners = () => {
     return (
-        <div  className=" font-secondary   my-60">
+        <div data-aos="zoom-in"  className=" font-secondary   my-60">
             <h2 className=" text-6xl text-[#163020] text-center underline font-black mb-16 "> Our Partners</h2>
             <Marquee className=' flex justify-center items-center gap-7' pauseOnHover speed={500} >
                     <div className=" flex w-full h-20 rounded-full gap-10 ">
